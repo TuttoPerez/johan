@@ -1,0 +1,31 @@
+
+
+.img-about{
+    width: 100vw;
+}
+
+.item-about{
+    margin-bottom: 0px;
+    
+}
+
+.item-about2{
+    display: grid;
+    background-color: rgb(78, 78, 78);
+}
+
+/*QUERIES*/
+
+
+@media (min-width: 1024px){
+    .caja-about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-about{
+        width: 100%;
+    }
+    .item-about2{
+        align-content:center;
+    }
+}
